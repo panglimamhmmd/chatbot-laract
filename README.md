@@ -1,3 +1,24 @@
+<h1>Laravel - React Chat Bot App Project Usage</h1>
+<p>Aplikasi Chat Bot menggunakan Laravel dan React adalah proyek yang memungkinkan pengguna untuk berinteraksi dengan bot melalui pesan teks. </p>
+<ol>
+  <li>Run <code>git clone projek ini</code></li>
+
+<li>Pastikan sudah menginstall Composer untuk Laravel, Node.js, dan npm untuk React, serta XAMPP (PHP dan MySQL)</li>
+      <li>Run <code>composer install</code></li>
+      <li>Run <code>npm install</code></li>
+      <li>Run <code>cp .env.example .env</code></li>
+      <li>Buka <a href="https://openai.com">https://openai.com</a></li>
+      <li>Login dan generate API keys</li>
+      <li>Masukkan key ke <code>.env</code> dengan nama <code>OPENAI_API_KEY</code></li>
+
+  <li>Run <code>php artisan key:generate</code></li>
+  <li>Aktifkan MySQL dan konfigurasi database sesuai <code>.env</code></li>
+  <li>Run <code>php artisan migrate</code></li>
+  <li>Run <code>php artisan serve</code></li>
+  <li>Run <code>npm run dev</code></li>
+  <li>Buka Link pada browser <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a></li>
+</ol> 
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
